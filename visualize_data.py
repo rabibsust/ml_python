@@ -28,4 +28,11 @@ dataset.plot(kind='box', subplots=True, layout=(2,2), sharex = False, sharey = F
 #histogram of individual variables
 dataset.hist()
 
+#Data visualization
+#Multivariate plots
+#Interaction between the variables
+#Scatterplots of all pairs of attributes
+####Scatterplot matrices are a great way to roughly determine if you have a linear correlation between multiple variables.####
+scatter_matrix(dataset)
+
 plt.show()
