@@ -22,4 +22,10 @@ dataset = pandas.read_csv(url, names=names)
 #box and whisker plots
 #plots of individual variables
 dataset.plot(kind='box', subplots=True, layout=(2,2), sharex = False, sharey = False)
+
+#Data visualization
+#Univariate plots
+#histogram of individual variables
+dataset.hist()
+
 plt.show()
